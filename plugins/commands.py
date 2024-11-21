@@ -48,15 +48,15 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('⚡️ Updates ⚡️', url=https://t.me/theatrebuddy"),
-                InlineKeyboardButton('ℹ️ Help ', url=https://t.me/+UKdgaPKgyw4zNWY1')
+                InlineKeyboardButton('⚡️ Updates ⚡️', url="https://t.me/theatrebuddy"),
+                InlineKeyboardButton('ℹ️ Help ', url='https://t.me/+UKdgaPKgyw4zNWY1')
             ]]
         else:
             buttons = [[
                 InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('⚡️ Updates ⚡️', url=https://t.me/theatrebuddy"),
-                InlineKeyboardButton('ℹ️ Help ', url=https://t.me/+UKdgaPKgyw4zNWY1')
+                InlineKeyboardButton('⚡️ Updates ⚡️', url="https://t.me/theatrebuddy"),
+                InlineKeyboardButton('ℹ️ Help ', url='https://t.me/+UKdgaPKgyw4zNWY1')
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ 🤖', callback_data='clone')])
@@ -122,15 +122,15 @@ async def start(client, message):
             buttons = [[
                 InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('⚡️ Updates ⚡️', url=https://t.me/theatrebuddy"),
-                InlineKeyboardButton('ℹ️ Help ', url=https://t.me/+UKdgaPKgyw4zNWY1')
+                InlineKeyboardButton('⚡️ Updates ⚡️', url="https://t.me/theatrebuddy"),
+                InlineKeyboardButton('ℹ️ Help ', url='https://t.me/+UKdgaPKgyw4zNWY1')
             ]]
         else:
             buttons = [[
                 InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('⚡️ Updates ⚡️', url=https://t.me/theatrebuddy"),
-                InlineKeyboardButton('ℹ️ Help ', url=https://t.me/+UKdgaPKgyw4zNWY1')
+                InlineKeyboardButton('⚡️ Updates ⚡️', url="https://t.me/theatrebuddy"),
+                InlineKeyboardButton('ℹ️ Help ', url='https://t.me/+UKdgaPKgyw4zNWY1')
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ 🤖', callback_data='clone')])
@@ -165,15 +165,15 @@ async def start(client, message):
                 buttons = [[
                 InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('⚡️ Updates ⚡️', url=https://t.me/theatrebuddy"),
-                InlineKeyboardButton('ℹ️ Help ', url=https://t.me/+UKdgaPKgyw4zNWY1')
+                InlineKeyboardButton('⚡️ Updates ⚡️', url="https://t.me/theatrebuddy"),
+                InlineKeyboardButton('ℹ️ Help ', url='https://t.me/+UKdgaPKgyw4zNWY1')
             ]]
             else:
                 buttons = [[
                 InlineKeyboardButton('➕ Add Me To Your Group ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-                InlineKeyboardButton('⚡️ Updates ⚡️', url=https://t.me/theatrebuddy"),
-                InlineKeyboardButton('ℹ️ Help ', url=https://t.me/+UKdgaPKgyw4zNWY1')
+                InlineKeyboardButton('⚡️ Updates ⚡️', url="https://t.me/theatrebuddy"),
+                InlineKeyboardButton('ℹ️ Help ', url='https://t.me/+UKdgaPKgyw4zNWY1')
             ]]
             if CLONE_MODE == True:
                 buttons.append([InlineKeyboardButton('🤖 Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ 🤖', callback_data='clone')])
