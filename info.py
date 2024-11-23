@@ -1,6 +1,3 @@
-# Don't Remove Credit @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
 
 
 import re
@@ -127,9 +124,9 @@ SHORTLINK_API = environ.get('SHORTLINK_API', '')
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
-CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
-BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
+CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "<b>File uploaded by [Theatre Buddy™](https://t.me/theatrebuddy)</b>\n\nName: 2 {file_caption} \n\n <b>Size: </b><code>> {file_size}</code> \n\n <b>Join Now [Theatre Buddy™](https://t.me/theatrebuddy)</b> ")
+BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "<b>File uploaded by [Theatre Buddy™](https://t.me/theatrebuddy)</b>\n\nName: 2 {file_caption} \n\n <b>Size: </b><code>> {file_size}</code> \n\n <b>Join Now [Theatre Buddy™](https://t.me/theatrebuddy)</b> "))
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "", "<b>Your Query: 2 {query}</b> \nIMDb: \n\n Title: {title}\n Rating: {rating}/10\n2 Genres: {genres}\n17 Year: {year}\n> Duration: {runtime}\n Languages: {languages}\n Plot: {plot}\n\n❤ we are nothing without you \n\n2 Please Share Us \n\n ! Click on the 2 button below to get your query privately")
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 
 # Choose Option Settings 
