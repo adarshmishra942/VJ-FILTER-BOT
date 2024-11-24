@@ -126,7 +126,7 @@ PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", ", "<b>Your Query: {query}</b> \nIMDb: \n\n Title: {title}\n Rating: {rating}/10\n Genres: {genres}\n Year: {year}\n> Duration: {runtime}\n Languages: {languages}\n Plot: {plot}\n\n we are nothing without you \n\n Please Share Us \n\n Click on the button below to get your query privately")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 
 # Choose Option Settings 
